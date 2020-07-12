@@ -1,0 +1,21 @@
+nav{
+    margin: 0;
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        background-color: #0000EC;
+        padding: 0;
+        height: 224px;
+        justify-content: space-between;
+        li{
+            width: 100%;
+                // height: 56px;
+            font-family: $IBMPlexMono;
+            font-size: 16px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            line-height: 28px;
+        }
+    }
+}
