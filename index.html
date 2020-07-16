@@ -5,19 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PodCast Channel</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="./res/img/logo.svg">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-    <header>
-        <img src="./res/img/logo.svg" alt="">
-        <nav>
+    <header class="grid-columns">
+        <img src="./res/img/logo.svg" alt="logo">
+        <input type="checkbox" name="btn-menu" id="btn-menu">
+        <label for="btn-menu">
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-times"></i>
+        </label>
+        <nav id="navbar">
             <ul>
-                <li>EPISODIOS</li>
-                <li>NOSOTROS</li>
-                <li>ENTREVISTAS</li>
-                <li>TOPICOS</li>
+                <li class="li-navbar"><a href="#">EPISODIOS</a></li>
+                <li class="li-navbar"><a href="#">NOSOTROS</a></li>
+                <li class="li-navbar"><a href="#">ENTREVISTAS</a></li>
+                <li class="li-navbar"><a href="#">TÓPICOS</a></li>
             </ul>
        </nav>
+       <div id="first-title">
+            <h1>Hello <span>world</span>  pale blue dot.</h1>
+            <p>Un PodCast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+       </div>
+       <button class="btn">CONOCÉ MÁS</button>
     </header>
+    <main>
+    </main>
 </body>
 </html>
