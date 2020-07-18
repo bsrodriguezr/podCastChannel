@@ -29,16 +29,6 @@ header{
     button{
         grid-column: 2/5;
         grid-row: 3/4;
-        background: #00F3BB;
-        width: 288px; 
-        height: 100%;  
-        border: 0;
-        font-family: $IBMPlexMono;
-        font-size: 18px;
-        color: #060A24;
-        letter-spacing: 0;
-        text-align: center;
-        line-height: 24px;
     }
 }
 
@@ -73,9 +63,9 @@ header{
     height: 25%;
     letter-spacing: 0;
     line-height: 56px;
+    font-family: $IBMPlexMono;
+    font-size: 16px;
     a{
-        font-family: $IBMPlexMono;
-        font-size: 16px;
         color: #FFFFFF;
         text-decoration: none;
     }

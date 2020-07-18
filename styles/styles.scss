@@ -4,5 +4,22 @@
 @import "./mobile/main";
 @import "./desktop/header-desktop";
 body{
-    margin: 0;
+    margin:0;
+}
+.btn-main{
+    background: #00F3BB;
+    width: 288px; 
+    height: 100%;  
+    border: 0;
+    font-family: $IBMPlexMono;
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+
+    &:hover{
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        color: #FFFFFF;
+    }
 }
