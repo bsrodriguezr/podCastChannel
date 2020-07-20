@@ -1,0 +1,55 @@
+#episodies{
+    grid-template-rows: 10vw 80px 750px 10vw;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+
+    h1{
+        grid-column: 2/5;
+        grid-row: 2/3;
+        color: #ffffff;
+        margin-top: 20px;
+    }
+    
+    div{
+        grid-column: 2/5;
+        grid-row: 3/4;
+        height: 95%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        iframe{
+            width: 100%;
+            height: 23%;
+        }
+    }
+}
+
+#svg-sup-episode{
+    grid-row: 1/2;
+}
+
+#svg-inf-episode{
+    grid-row: 4/5;
+}
+
+#where-come-us{
+    grid-template-rows: 500px 600px;
+    transform: translateY(-25vw);
+    display: flex;
+    flex-direction:column;
+    img{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        width: 100%;
+        height: 90%;
+    }
+    div{
+        grid-column: 2/5;
+        grid-row: 2/3;
+        p{
+            margin-top: 10px;
+        }
+    }
+   
+}

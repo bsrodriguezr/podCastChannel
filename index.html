@@ -11,11 +11,13 @@
 <body>
     <header class="grid-columns">
         <img src="./res/img/logo.svg" alt="logo">
+
         <input type="checkbox" name="btn-menu" id="btn-menu">
         <label for="btn-menu">
             <i class="fa fa-bars"></i>
             <i class="fa fa-times"></i>
         </label>
+
         <nav id="navbar">
             <ul>
                 <li class="li-navbar"><a href="#">EPISODIOS</a></li>
@@ -24,13 +26,45 @@
                 <li class="li-navbar"><a href="#">TÓPICOS</a></li>
             </ul>
        </nav>
-       <div id="first-title">
-            <h1>Hello <span>world</span>  pale blue dot.</h1>
-            <p>Un PodCast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+
+       <div id="main-title">
+            <h1 class="font-title">Hello <span>world</span></h1><h1 class="font-title"> pale blue dot.</h1>
+            <p class="font-p">Un PodCast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
        </div>
+
        <button class="btn-main">CONOCÉ MÁS</button>
     </header>
-    <main class="grid-columns">
+
+    <main>
+        <section id="episodies" class="grid-columns">
+            <svg class="svg-style" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" id="svg-sup-episode">
+                <polygon fill="white" points="0,0 100,0 0,100"/>
+            </svg>
+
+            <h1 class="font-title">Episodios</h1>
+
+            <div id="episodies-iframes">
+                
+                <iframe src="https://open.spotify.com/embed/episode/6eCHJ8yOYtksW8OT93Dbdu?si=XVKKwp_5QAeUPXaEyS9Lvw" frameborder="0"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/4TVf9ldzZpa4LKTQecAqCy?si=6Jj6tCasR7-dnIwfYWtz_w" frameborder="0"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD?si=a0FbvLYTSsisDbASOIPfug" frameborder="0"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/31VyAQAwBiKoHVoYUCEzjQ?si=ura0C5M_Ste3YVFlZup28w" frameborder="0"></iframe>
+            </div>
+
+            <svg class="svg-style" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" id="svg-inf-episode">
+                <polygon fill="white" points="0,100 100,0 100,100"/>
+            </svg>
+        </section>
+
+        <section id="where-come-us" class="grid-columns">
+            <img src="./res/img/phone.png" alt="Phone">
+            
+            <div>
+                <h1 class="font-title">De dónde</h1><h1 class="font-title">venimos</h1>
+                <p class="font-p">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+                <p class="font-p">Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </section>
 
     </main>
 </body>

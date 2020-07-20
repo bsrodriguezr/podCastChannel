@@ -1,6 +1,5 @@
 header{
-    display: grid;
-    grid-template-rows: 44px 224px 48px;
+    grid-template-rows: 44px 224px 48px 20px;
     img{
         grid-column: 2/3;
         grid-row: 1/2;
@@ -22,13 +21,50 @@ header{
         .fa-times{
             font-size: 24px;
             text-align: right;
-                display: none;
+            display: none;
         }
     }
 
     button{
         grid-column: 2/5;
         grid-row: 3/4;
+    }
+}
+
+
+.grid-columns{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 7fr 1fr 0.5fr ;
+}
+
+.li-navbar{
+    width: 100%;
+    height: 25%;
+    letter-spacing: 0;
+    line-height: 56px;
+    font-family: $IBMPlexMono;
+    font-size: 16px;
+    a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+.btn-main{
+    background: #00F3BB;
+    width: 100%; 
+    height: 100%;  
+    border: 0;
+    font-family: $IBMPlexMono;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+
+    &:hover{
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        color: #FFFFFF;
     }
 }
 
@@ -54,42 +90,15 @@ header{
     }
 }
 
-.grid-columns{
-    grid-template-columns: 0.5fr 1fr 7fr 1fr 0.5fr ;
-}
-
-.li-navbar{
-    width: 100%;
-    height: 25%;
-    letter-spacing: 0;
-    line-height: 56px;
-    font-family: $IBMPlexMono;
-    font-size: 16px;
-    a{
-        color: #FFFFFF;
-        text-decoration: none;
-    }
-}
-
-#first-title{
+#main-title{
     grid-column: 2/5;
     grid-row: 2/3;
-    h1{
-        font-family: $IBMPlexSans;
-        font-size: 36px;
-        color: #060A24;
-        letter-spacing: 0;
-        line-height: 42px;
-        span{
-            text-decoration: line-through;
-        }
-    }
+    margin-top: 20px;
+    h1 span{
+        text-decoration: line-through;
+    }  
     p{
-        font-family: $IBMPlexMono;
-        font-size: 14px;
-        color: #060A24;
-        letter-spacing: 0;
-        line-height: 22px;
+        margin-top: 25px;
     }
 }
 
