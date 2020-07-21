@@ -20,7 +20,7 @@
         grid-row: 1/2;
         height: 100%;
         display: block;
-        background-color:#FFFFFF ;
+        background-color: $white;
         ul{
             flex-direction: row;
             height: 100%;
@@ -37,7 +37,7 @@
         a{
             font-family: $IBMPlexMono;
             font-size: 16px;
-            color:  #060A24;
+            color:  $darkBlue;
             text-decoration: none;
         }
     }

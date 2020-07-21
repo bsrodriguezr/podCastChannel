@@ -6,7 +6,6 @@
     <title>PodCast Channel</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href="./res/img/logo.svg">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
     <header class="grid-columns">
@@ -20,10 +19,10 @@
 
         <nav id="navbar">
             <ul>
-                <li class="li-navbar"><a href="#">EPISODIOS</a></li>
-                <li class="li-navbar"><a href="#">NOSOTROS</a></li>
-                <li class="li-navbar"><a href="#">ENTREVISTAS</a></li>
-                <li class="li-navbar"><a href="#">TÓPICOS</a></li>
+                <li class="li-navbar"><a href="#episodies">EPISODIOS</a></li>
+                <li class="li-navbar"><a href="#where-come-us">NOSOTROS</a></li>
+                <li class="li-navbar"><a href="#invite">ENTREVISTAS</a></li>
+                <li class="li-navbar"><a href="#topics">TÓPICOS</a></li>
             </ul>
        </nav>
 
@@ -32,7 +31,7 @@
             <p class="font-p">Un PodCast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
        </div>
 
-       <button class="btn-main">CONOCÉ MÁS</button>
+       <a class="btn-main" href="#where-come-us">CONOCÉ MÁS</a>
     </header>
 
     <main>
@@ -65,7 +64,60 @@
                 <p class="font-p">Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
             </div>
         </section>
-
+        <section  id="invite" class="grid-columns">
+            <div>
+                <h1 class="font-title" >Invitadas/os</h1><h1 class="font-title"> estelares</h1>
+            </div>
+            <div>
+                <img src="./res/img/grace-hopper.png" alt="Grace Hopper">
+                <img src="./res/img/Katie-Bouman.png" alt="Katie Bouman">
+                <img src="./res/img/Margaret_Hamilton.png" alt="Margaret Hamilton">
+                <img src="./res/img/An E.R.A.Univac 1103 computer in the 1950s.png" alt="Computer in 1950">
+                <img src="./res/img/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="Computer operators with an Eniac">
+                <img src="./res/img/susan-kare.png" alt="Susan Kare">
+            </div>
+        </section>
+        <section id="topics" class="grid-columns">
+            <h1 class="font-title">Algunos de nuestros temas</h1>
+            <div>
+                <div>
+                    <img src="./res/img/icon1.svg" alt="Trabajo remoto">
+                    <p class="font-p-topics">Trabajo remoto</p>
+                </div>
+                <div>
+                    <img src="./res/img/icon2.svg" alt="Repensando la programacion">
+                    <p class="font-p-topics">Repensando la <br>programacion</p>
+                </div>
+                <div>
+                    <img src="./res/img/icon3.svg" alt="Bases de codigo">
+                    <p class="font-p-topics">Bases del código</p>
+                </div>
+                <div>
+                    <img src="./res/img/icon4.svg" alt="Seguridad informatica">
+                    <p class="font-p-topics">Seguridad informática</p>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <section id="last-news" class="grid-columns">
+            <svg class="svg-style" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" id="svg-news">
+                <polygon fill="white" points="0,0 100,0 0,100"/>
+            </svg>
+
+            <h1 class="font-title">¿Querés las últimas novedades?</h1>
+            <a class="btn-main" href="#episodies">LOS EPISODIOS</a>
+        </section>
+        <section id="social" class="grid-columns">
+            <p class="font-p">© 2019— Hello blue pale dot</p>
+            <div>
+                <a href="https://www.spotify.com/co/" target="_blank"><i class="fa fa-spotify"></i></a>
+                <a href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://es-la.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                <a href="https://web.telegram.org/" target="_blank"><i class="fa fa-telegram"></i></a>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
