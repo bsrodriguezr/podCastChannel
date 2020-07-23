@@ -1,0 +1,29 @@
+header{
+    grid-template-rows: 60px 230px 48px 20px;
+    img{
+        height: 30px;
+        width:  30px;
+        margin-top: 20px;
+    }
+    label{
+        grid-column: 6/7;
+        margin-top: 20px;
+        .fa-bars{
+            font-size: 30px;
+        }
+        .fa-times{
+            font-size: 30px;
+        }
+    }
+    a{
+        grid-column: 3/6;
+    }
+}
+
+#navbar{
+    grid-column: 1/8;
+}
+
+#main-title{
+    grid-column: 3/5;
+}

@@ -1,0 +1,7 @@
+.grid-columns{
+    grid-template-columns: 1fr 1fr repeat(3,3fr) 1fr 1fr ;
+}
+
+.svg-style{
+    grid-column: 1/8;
+}
